@@ -1,0 +1,14 @@
+/* styles.css */
+
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form-item {
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  width: 100%;
+}
