@@ -1,5 +1,5 @@
 const blogBackendUrls = {
-    local: 'http://localhost:3000/data/api/v1',
+    local: 'https://blog-backend-rxa2.onrender.com/data/api/v1',
   };
   
   export {
