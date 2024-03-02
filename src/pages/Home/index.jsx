@@ -10,6 +10,7 @@ const BlogHomePage = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalCount, setTotalCOunt] = useState();
   const [loading, setLoading] = useState(false);
+  const [current, setCurrent] = useState('home');
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
@@ -46,7 +47,7 @@ const BlogHomePage = () => {
     <>
       <div className="header-container">
       {/* <h2 style={{marginRight:"50px"}}>SNK BLOG</h2> */}
-        <Menu mode="horizontal">
+        <Menu mode="horizontal" selectedKeys={current}>
           <Menu.Item key="home" icon={<HomeOutlined />}>
             <Link to="/">Home</Link>
           </Menu.Item>
